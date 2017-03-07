@@ -1,0 +1,15 @@
+{
+  "name": "sass-setup",
+  "version": "1.0.0",
+  "description": "simple sass setup using npm",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css",
+    "watch-css": "node-sass -w scss -o public/css/"
+  },
+  "author": "Suhel Tanveer",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.0"
+  }
+}
